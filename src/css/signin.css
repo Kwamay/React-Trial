@@ -4,8 +4,9 @@
   padding: 0;
 }
 
-body {
+.login-body {
   background-image: linear-gradient(90deg, #e0e1e5, #ffb24b);
+  height: 100vh;
 }
 
 .login-page {
@@ -89,6 +90,7 @@ body {
 
 .pass-underline {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .left-btn-container {

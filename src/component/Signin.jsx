@@ -23,7 +23,7 @@ function Signin() {
   };
 
   return (
-    <div>
+    <div className="login-body">
       <section className="login-page">
         <div className="rec-shape">
           <div className="left-rec-shape">

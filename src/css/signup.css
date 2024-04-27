@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(-90deg, #e0e1e5, #ffb24b);
- margin: 8rem, auto; 
+  height: 100vh;
 }
 
 .rectangle-shape {
@@ -155,5 +155,5 @@
 }
 
 .r-sign-up-btn:hover {
-    background-color: #ffad66; /* Change background color on hover */
+  background-color: #ffad66; /* Change background color on hover */
 }
