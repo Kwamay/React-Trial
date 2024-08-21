@@ -1,12 +1,27 @@
 import React from "react";
+import "../css/dashboard.css";
 
 const Dashboard = () => {
-    return (
-        <div>
-            <h1>Welcome to the Dashboard!</h1>
-            <p>This is where you can view your important information and statistics.</p>
-        </div>
-    );
-}
+  return (
+    <div className="dashboard">
+      <nav class="sidenav">
+      <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#clients">Clients</a>
+  <a href="#contact">Contact</a>
+  <button class="dropdown-btn">Dropdown
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+  <a href="#contact">Search</a>
+</nav>
+      <div className="dashboard-page"></div>
+    </div>
+  );
+};
 
 export default Dashboard;
